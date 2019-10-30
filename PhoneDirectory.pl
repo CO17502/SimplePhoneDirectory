@@ -81,6 +81,41 @@ belong(+998,uzbekistan).
 belong(+84,vietnam).
 belong(+967,yemen).
 
+operator('9888',Op):-
+	Op = "vodafone Punjab".
+operator('9988',Op):-
+	Op = "vodafone Punjab".
+operator('7015',Op):-
+	Op = "jio Haryana".
+operator('7018',Op):-
+	Op = "jio Himachal Pradesh".
+operator('7009',Op):-
+	Op = "jio Punjab".
+operator('8708',Op):-
+	Op = "jio Haryana".
+operator('9878',Op):-
+	Op = "Airtel Punjab".
+operator('9779',Op):-
+	Op = "Airtel Punjab".
+operator('9915',Op):-
+	Op = "Airtel Punjab".
+operator('9876',Op):-
+	Op = "Airtel Punjab".
+operator('9872',Op):-
+	Op = "Airtel Punjab".
+operator('9815',Op):-
+	Op = "Airtel Punjab".
+operator('9501',Op):-
+	Op = "Airtel Punjab".
+operator('8968',Op):-
+	Op = "Airtel Punjab".
+operator('8427',Op):-
+	Op = "Airtel Punjab".
+operator('8289',Op):-
+	Op = "Airtel Punjab".
+operator('8288',Op):-
+	Op = "Airtel Punjab".
+
 countryCode(X):-
   belong(X,Y),
   write(Y),nl.
