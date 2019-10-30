@@ -81,6 +81,131 @@ belong(+998,uzbekistan).
 belong(+84,vietnam).
 belong(+967,yemen).
 
+operator('7799',Op):-
+	Op = "vodafone Andhra Pradesh".
+operator('8142',Op):-
+	Op = "vodafone Andhra Pradesh".
+operator('8721',Op):-
+	Op = "vodafone Assam".
+operator('8723',Op):-
+	Op = "vodafone Assam".
+operator('8404',Op):-
+	Op = "vodafone Assam".
+operator('7631',Op):-
+	Op = "vodafone Jharkhand".
+operator('8051',Op):-
+	Op = "vodafone Jharkhand".
+operator('8405',Op):-
+	Op = "vodafone Bihar".
+operator('8406',Op):-
+	Op = "vodafone Bihar".
+operator('9736',Op):-
+	Op = "vodafone Himachal Pradesh".
+operator('7027',Op):-
+	Op = "vodafone Haryana".
+operator('8395 ',Op):-
+	Op = "vodafone Haryana".
+operator('8396',Op):-
+	Op = "vodafone Haryana".
+operator('8397',Op):-
+	Op = "vodafone Haryana".
+operator('8398',Op):-
+	Op = "vodafone Haryana".
+operator('8813',Op):-
+	Op = "vodafone Haryana".
+operator('8814',Op):-
+	Op = "vodafone Haryana".
+operator('8816',Op):-
+	Op = "vodafone Haryana".
+operator('8818',Op):-
+	Op = "vodafone Haryana".
+operator('8930',Op):-
+	Op = "vodafone Haryana".
+operator('9050',Op):-
+	Op = "vodafone Haryana".
+operator('9671',Op):-
+	Op = "vodafone Haryana".
+operator('9813',Op):-
+	Op = "vodafone Haryana".
+operator('9991',Op):-
+	Op = "vodafone Haryana".
+operator('8053',Op):-
+	Op = "vodafone Haryana".
+operator('9646',Op):-
+	Op = "vodafone Punjab".
+operator('9780',Op):-
+	Op = "vodafone Punjab".
+operator('7508',Op):-
+	Op = "vodafone Punjab".
+operator('7837',Op):-
+	Op = "vodafone Punjab".
+operator('8054',Op):-
+	Op = "vodafone Punjab".
+operator('8556',Op):-
+	Op = "vodafone Punjab".
+operator('8557',Op):-
+	Op = "vodafone Punjab".
+operator('8558',Op):-
+	Op = "vodafone Punjab".
+operator('8559',Op):-
+	Op = "vodafone Punjab".
+operator('9888',Op):-
+	Op = "vodafone Punjab".
+operator('9988',Op):-
+	Op = "vodafone Punjab".
+operator('7015',Op):-
+	Op = "jio Haryana".
+operator('7018',Op):-
+	Op = "jio Himachal Pradesh".
+operator('7009',Op):-
+	Op = "jio Punjab".
+operator('8708',Op):-
+	Op = "jio Haryana".
+operator('9878',Op):-
+	Op = "Airtel Punjab".
+operator('9779',Op):-
+	Op = "Airtel Punjab".
+operator('9915',Op):-
+	Op = "Airtel Punjab".
+operator('9876',Op):-
+	Op = "Airtel Punjab".
+operator('9872',Op):-
+	Op = "Airtel Punjab".
+operator('9815',Op):-
+	Op = "Airtel Punjab".
+operator('9501',Op):-
+	Op = "Airtel Punjab".
+operator('8968',Op):-
+	Op = "Airtel Punjab".
+operator('8427',Op):-
+	Op = "Airtel Punjab".
+operator('8289',Op):-
+	Op = "Airtel Punjab".
+operator('8288',Op):-
+	Op = "Airtel Punjab".
+operator('8284',Op):-
+	Op = "Airtel Punjab".
+operator('8283',Op):-
+	Op = "Airtel Punjab".
+operator('8146',Op):-
+	Op = "Airtel Punjab".
+operator('8295',Op):-
+	Op = "Airtel Haryana".
+operator('8569',Op):-
+	Op = "Airtel Haryana".
+operator('8570',Op):-
+	Op = "Airtel Haryana".
+operator('8571',Op):-
+	Op = "Airtel Haryana".
+operator('8572',Op):-
+	Op = "Airtel Haryana".
+operator('9729',Op):-
+	Op = "Airtel Haryana".
+operator('9896',Op):-
+	Op = "Airtel Haryana".
+operator('9996',Op):-
+	Op = "Airtel Haryana".
+
 countryCode(X):-
   belong(X,Y),
   write(Y),nl.
