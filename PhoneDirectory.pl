@@ -81,33 +81,17 @@ belong(+998,uzbekistan).
 belong(+84,vietnam).
 belong(+967,yemen).
 
-operator('9736',Op):-
-	Op = "vodafone Himachal Pradesh".
-operator('7027',Op):-
-	Op = "vodafone Haryana".
-operator('8395 ',Op):-
-	Op = "vodafone Haryana".
-operator('8396',Op):-
-	Op = "vodafone Haryana".
-operator('7015',Op):-
-	Op = "jio Haryana".
-operator('7018',Op):-
-	Op = "jio Himachal Pradesh".
-operator('7009',Op):-
-	Op = "jio Punjab".
-operator('8708',Op):-
-	Op = "jio Haryana".
-operator('9878',Op):-
-	Op = "Airtel Punjab".
-operator('9779',Op):-
-	Op = "Airtel Punjab".
-
 countryCode(X):-
   belong(X,Y),
   write(Y),nl.
   
  number(N):-
   split_string(N," ","",L),
-  write(L),nl.
-  
+  write(L),nl,
+  number_codes(Z,L),
+  countryCode(Z).
+ main :-
+	write("number"),nl,
+	read(N),
+	number(N). 
  
