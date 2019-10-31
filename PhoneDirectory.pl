@@ -116,17 +116,21 @@ operator('8289',Op):-
 operator('8288',Op):-
 	Op = "Airtel Punjab".
 
-countryCode(X):-
-  belong(X,Y),
-  write(Y),nl.
-  
- number(N):-
-  split_string(N," ","",L),
-  write(L),nl,
-  number_codes(Z,L),
-  countryCode(Z).
- main :-
+listToString([X|T],X).
+
+phoneNo([X|Y]):-
+    listToString(Y,S),
+    sub_atom(S, 0, 4, A, O),
+    number_codes(Z,X),
+    belong(Z,C),
+     format("This number belongs to ~w",C),nl,
+    write(O),nl,
+    operator(O,Op),nl,
+    format("Operator is ~w",Op).
+
+main :-
 	write("number"),nl,
 	read(N),
-	number(N). 
- 
+	split_string(N," ","",L),
+	write(L),nl,
+	phoneNo(L).
